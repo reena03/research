@@ -4,9 +4,12 @@ This code base is a springboot RESTful API that accepts the necessary informatio
 
 This solution caters for multiple email recipients, CCs and BCCs but there is no support for HTML email body types only plain text.
 
+## Build
+Use the below to build
+gradle clean build -x test
 
 ## Installation
-Download the folder restful-ws/build/libs/gs-rest-service-0.1.0.jar
+The already built jar can be downloaded from restful-ws/build/libs/gs-rest-service-0.1.0.jar
 
 Add the correct api key and url values in application.properties
 
