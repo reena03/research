@@ -21,7 +21,6 @@ curl -X POST \
   http://localhost:8080/ws/email \
   -H 'cache-control: no-cache' \
   -H 'content-type: application/json' \
-  -H 'postman-token: 2b02e242-40d9-3f51-cc2d-ae0d8d2385dc' \
   -d '{"from":"test@gmail.com","to":["test01@gmail.com","test02@gmail.com"],"cc":["test13@example.com","test23@example.com"],"subject":"Having fun with coding","body":"Having fun with coding and testing and blah blah blah ... "}  
 
 Use postman
