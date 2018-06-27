@@ -37,9 +37,9 @@ public class EmailController {
 		String responeString = null;
 
 		try {
-			responeString = invokeSend(email, mailGunService);
+			responeString = invokeSend(email, sendGridService );
 		} catch (Exception e) {
-			responeString = invokeSend(email, sendGridService);
+			responeString = invokeSend(email, mailGunService);
 		}
 		return new ResponseEntity<>(responeString, org.springframework.http.HttpStatus.ACCEPTED);
 	}
