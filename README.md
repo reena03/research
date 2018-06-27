@@ -13,14 +13,14 @@ TBD
 ## Installation
 Download the folder restful-ws/build/libs/gs-rest-service-0.1.0.jar
 
-Add the correct api key and url values.
+Add the correct api key and url values in application.properties
 
 To run the springboot application use 
 
 java -jar build/libs/gs-rest-service-0.1.0.jar
 
 ## Tests
-Use curl
+Use curl and put in valid email ids
 
 curl -X POST \
   http://localhost:8080/ws/email \
